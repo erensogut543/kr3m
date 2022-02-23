@@ -1,0 +1,25 @@
+<div class="coupon-card">
+    <div class="img-container">
+        <img [src]="coupon.imageUrl"  alt="">
+    </div>
+
+    <div class="details">
+        <div class="discount-cont">
+            <div class="discount">
+                <span>
+                    {{coupon.discount}}€ 
+                </span>
+                <span class="rabatte-text">
+                    Rabatte
+                </span>
+            </div>
+            <div class="discount-desc">
+                <span style="font-weight: bold;"> {{coupon.description}}</span>
+                <span style="font-size: 12px;" > bei {{coupon.title}} </span>
+            </div>
+        </div>
+     
+    </div>
+    
+
+</div>

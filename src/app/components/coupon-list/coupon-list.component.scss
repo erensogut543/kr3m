@@ -1,0 +1,27 @@
+.filters{
+    display: flex;
+    flex-flow: wrap;
+    margin-bottom: 16px;
+}
+.input-group-width{
+    width: 30%;
+}
+
+.coupon-list {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+}
+
+
+@media only screen and (max-width:637px){
+    .input-group-width{
+        width: 100%;
+    }
+    .emr-select{
+        margin-left: 0;
+    }
+    .coupon-list {
+        justify-content: center;
+    }
+}

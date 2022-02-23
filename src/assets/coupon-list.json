@@ -1,0 +1,121 @@
+[{
+    "id":"1",
+    "title":"CLARK",
+    "imageUrl":"assets/images/koln.jpg",
+    "discount":150,
+    "description":"Bis zu 150€ Amazon Gutschein für deine Versicherung erhalten"
+},
+{
+    "id":"2",
+    "title":"Lieferando",
+    "imageUrl":"assets/images/koln2.jpg",
+    "discount":180,
+    "description":"Gutschein im Wert von 180€ der letzten 5 Bestellsummen erhalten"
+},
+{
+    "id":"3",
+    "title":"Tchibo",
+    "imageUrl":"assets/images/darmstad.jpg",
+    "discount":100,
+    "description":"Gutschein im Wert von 100€ der letzten 5 Bestellsummen erhalten"
+},
+{
+    "id":"4",
+    "title":"myposter",
+    "imageUrl":"assets/images/berlin-germany.jpg",
+    "discount":90,
+    "description":"Bis zu 90€ Amazon Gutschein für deine Versicherung erhalten"
+},
+{
+    "id":"5",
+    "title":"LANA KK",
+    "imageUrl":"assets/images/pexels-photo-713853.jpeg",
+    "discount":25,
+    "description":"Bis zu 25€ Amazon Gutschein für deine Versicherung erhalten"
+},
+{
+    "id":"6",
+    "title":"Siemens",
+    "imageUrl":"assets/images/berlin-germany.jpg",
+    "discount":80,
+    "description":"Bis zu 80€ Amazon Gutschein für deine Versicherung erhalten"
+},{
+    "id":"7",
+    "title":"Deutsche Telekom",
+    "imageUrl":"assets/images/germany-turkey.jpg",
+    "discount":30,
+    "description":"Bis zu 30€ Amazon Gutschein für deine Versicherung erhalten"
+},{
+    "id":"8",
+    "title":"Birkenstock",
+    "imageUrl":"assets/images/pexels-photo-713853.jpeg",
+    "discount":45,
+    "description":"Bis zu 45€ Amazon Gutschein für deine Versicherung erhalten"
+},{
+    "id":"9",
+    "title":"Braun",
+    "imageUrl":"assets/images/pexels-photo-713853.jpeg",
+    "discount":32,
+    "description":"Bis zu 32€ Amazon Gutschein für deine Versicherung erhalten"
+},{
+    "id":"10",
+    "title":"Gerolsteiner Brunnen",
+    "imageUrl":"assets/images/pexels-photo-713853.jpeg",
+    "discount":8,
+    "description":"Bis zu 8€ Amazon Gutschein für deine Versicherung erhalten"
+},{
+    "id":"11",
+    "title":"Nordzucker",
+    "imageUrl":"assets/images/pexels-photo-713853.jpeg",
+    "discount":3,
+    "description":"Bis zu 3€ Amazon Gutschein für deine Versicherung erhalten"
+},{
+    "id":"12",
+    "title":"Knorr",
+    "imageUrl":"assets/images/pexels-photo-713853.jpeg",
+    "discount":6,
+    "description":"Bis zu 6€ Amazon Gutschein für deine Versicherung erhalten"
+},
+{
+    "id":"13",
+    "title":"CLARK",
+    "imageUrl":"assets/images/koln.jpg",
+    "discount":150,
+    "description":"Bis zu 150€ Amazon Gutschein für deine Versicherung erhalten"
+},
+{
+    "id":"14",
+    "title":"Lieferando",
+    "imageUrl":"assets/images/koln2.jpg",
+    "discount":180,
+    "description":"Gutschein im Wert von 180€ der letzten 5 Bestellsummen erhalten"
+},
+{
+    "id":"15",
+    "title":"Tchibo",
+    "imageUrl":"assets/images/darmstad.jpg",
+    "discount":100,
+    "description":"Gutschein im Wert von 100€ der letzten 5 Bestellsummen erhalten"
+},
+{
+    "id":"16",
+    "title":"myposter",
+    "imageUrl":"assets/images/berlin-germany.jpg",
+    "discount":90,
+    "description":"Bis zu 90€ Amazon Gutschein für deine Versicherung erhalten"
+},
+{
+    "id":"17",
+    "title":"LANA KK",
+    "imageUrl":"assets/images/pexels-photo-713853.jpeg",
+    "discount":25,
+    "description":"Bis zu 25€ Amazon Gutschein für deine Versicherung erhalten"
+},
+{
+    "id":"18",
+    "title":"Siemens",
+    "imageUrl":"assets/images/berlin-germany.jpg",
+    "discount":80,
+    "description":"Bis zu 80€ Amazon Gutschein für deine Versicherung erhalten"
+}
+]

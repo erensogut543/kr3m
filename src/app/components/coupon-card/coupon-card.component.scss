@@ -1,0 +1,54 @@
+.coupon-card {
+    box-sizing: border-box;
+    border:1px solid transparent;
+    width: 280px;
+    margin-bottom: 16px;
+}
+.img-container {
+    position: relative;
+    img {
+        width: 280px;
+        height: 200px;
+    }
+}
+.details {
+    margin-top: 16px;
+  
+}
+.discount-cont {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.discount-desc {
+    text-align: end;
+    margin-top: -20px;
+    margin-right: 3px
+    span {
+        width: 180px;
+        font-size: 14px;
+        text-align: right;
+        display: block; 
+    }
+}
+.discount {
+    box-sizing: border-box;
+    border: 2px solid #563d7c;
+    border-radius: 18px;
+    border-bottom: none;
+    margin-top: -49px;
+    padding: 10px;
+    background-color: #ffffff;
+    position: relative;
+    height: 80px;
+    width: 80px;
+  span {
+      color: #563d7c;
+      font-weight: bold;
+      font-size: 20px;
+  }
+  .rabatte-text {
+    font-size: 14px;
+  }  
+}

@@ -1,0 +1,36 @@
+<div class="loader-contain" *ngIf="loading">
+    <div class="loader">
+
+    </div>
+</div>
+<div class="content-container">
+    <h2>Aktuelle Gutscheine, Angebote, Rabatte und Cashback</h2>
+    <div class="filters margin-t-24">
+        <div class="input-group mb-3 input-group-width">
+            <input type="text" [(ngModel)]="searchText" (keydown.enter)="searchByCompanyName()" class="form-control" placeholder="Suche nach Firmennamen" aria-label="Suche nach Firmennamen" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button" (click)="searchByCompanyName()">Suche</button>
+            </div>
+          </div>
+          <div class="emr-select">
+            <select (change)="sortBy($event)" >
+                <option value="alphabetisch"  selected> Alphabetisch
+                </option>
+                <option value="rabattbetrag" >
+                    Rabattbetrag
+                </option>
+                
+            </select>
+            <span >Sortiere nach</span>
+            <img src="/assets/images/ic-chevron-down.png" alt="">
+        </div>
+    </div>
+
+    <div class="coupon-list" *ngIf="couponList.length > 0">
+        <div class="col-sm-1 col-md-3" *ngFor="let coupon of couponList">
+            <coupon-card [coupon]="coupon" ></coupon-card>
+
+        </div>
+    </div>
+</div>
+ 
