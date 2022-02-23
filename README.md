@@ -6,22 +6,25 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Content
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This project covers only frontend implementation(part 1) of the given demo task.
+All fields are loaded from coupon-list.json file which is in src/asset folder.
+When loading this file to show observable and http usage, http get method is used.
+Loading functionality is implemented.
+Page is responsive, on mobile there is only one coupon item on a line but if it is not there are visible 4 items for each rows on the screen.
 
-## Running end-to-end tests
+## Assumptions
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Data type of "Discount" field  is number and it indicates the discount in Euro. 
+"ID" fields are not hashed because if there is a real backend server, the hashed ID's will return to client.
+Images are loaded by urls, normally these images should be on file server but in this demo these are kept in asset folder.
+"Title" field keep coupon owner company.
+Search filter applied for only Title(company name) field.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
